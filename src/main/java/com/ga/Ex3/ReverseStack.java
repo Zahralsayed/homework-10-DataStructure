@@ -51,3 +51,23 @@ public class ReverseStack {
         System.out.println("Reversed Stack: " + stack3);
     }
 }
+
+
+/*
+
+Challenges: What challenges did you encounter during the implementation?
+ -  reversing the stack with only stack operation (push and pop) - no additional data structure
+
+
+Efficiency: How efficient is your solution? Could there be a more optimal approach?
+- time complexity of O(n²), more optimal approach achieved by using additional stack
+
+Applications: Consider how the stack data structure can be applied in other programming problems. Discuss any ideas or insights.
+The stack data structure is widely used in many programming problems where Last-In-First-Out (LIFO) behavior is required.
+
+Common applications:
+- checking balanced parentheses
+- undo and redo operation
+- backtracking algorithm
+
+ */
